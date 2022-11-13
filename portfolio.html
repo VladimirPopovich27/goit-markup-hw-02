@@ -12,21 +12,21 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <header>
-        <a href="/"><span class="accent">Web</span>Studio</a>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="./portfolio.html">Портфоліо</a></li>
-                <li><a href="#">Контакти</a></li>
+    <header class="header">
+        <a class="header-logo link" href="/"><span class="header-accent link">Web</span>Studio</a>
+        <nav class="header-nav">
+            <ul class="header-list list">
+                <li><a href="./index.html" class="header-link link">Студія</a></li>
+                <li><a href="/portfolio.html" class="header-link link">Портфоліо</a></li>
+                <li><a href="#" class="header-link link">Контакти</a></li>
             </ul>
         </nav>
-        <ul>
-            <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="header-cntact list">
+            <li class="header-contact link">
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
             </li>
-            <li>
-                <a href="tel:+380961111111">+38-096-111-11-11</a>
+            <li class="header-contact link">
+                <a href="tel:+380961111111" class="link">+38-096-111-11-11</a>
             </li>
         </ul>
     </header>
@@ -34,8 +34,8 @@
     <main>
         <!--Filter-->
         <section>
-            <h1>filter</h1>
-            <ul>
+            <h1 class="visually-hidden">filter</h1>
+            <ul class="list">
                 <li><button type="button">Усі</button></li>
                 <li><button type="button">Веб-сайти</button></li>
                 <li><button type="button">Додатки</button></li>
@@ -47,10 +47,10 @@
  
         <!--Portfolio-->
         <section>
-            <h2>portfolio</h2>
-            <ul>
+            <h2 class="visually-hidden">portfolio</h2>
+            <ul class="list">
             <li>
-                <img src="./images/portfolio/project-1.jpg" alt="project_1" width="370">
+                <img src="./images/portfolio/project-1.jpg" alt="project_1" width="270">
                 <h3>Технокряк</h3>
                 <p>Веб-сайт</p>
             </li>
@@ -70,7 +70,7 @@
                 <p>Маркетинг</p>
             </li>
             <li>
-                <img src="./images/portfolio/project-5.jpg" alt="project_1" width="370">
+                <img src="./images/portfolio/project-5.jpg" alt="project_1" width="270">
                 <h3>Проєкт Boxes</h3>
                 <p>Додаток</p>
             </li>
@@ -100,16 +100,16 @@
         </main>
 
         <!--Футер-->
-        <footer>
-            <a href="/"><span class="accent">Web</span>Studio</a>
-                <address>
-                    <ul>
-                    <li><a href="https://goo.gl/maps/2xJjFby4WK6SpVGD9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
-                    <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38-096-111-11-11></a></li>
-                    </ul>
-                </address>
-        </footer>
+    <a class="header-logo link" href="./index.html"><span class="header-accent link">Web</span>Studio</a>
+    <address>
+        <ul class="list">
+            <li><a href="https://goo.gl/maps/2xJjFby4WK6SpVGD9" target="_blank" rel="noopener noreferrer nofollow"
+                    class="link">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li><a href="info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="link">+38-096-111-11-11></a></li>
+        </ul>
+    </address>
+    </footer>
 
            
 </body>
