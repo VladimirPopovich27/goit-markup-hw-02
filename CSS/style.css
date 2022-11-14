@@ -195,7 +195,7 @@ footer {
     background: #F5F4FA;
     border-radius: 4px;
     border-color: #F5F4FA;
-   
+    cursor: pointer
 }
 
 .btn-portfolio:hover,
